@@ -1,0 +1,128 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+.navbar {
+    background-color: #1a202c;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #e2e8f0 !important;
+}
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.social-icons a {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1a202c;
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #667eea;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 2px;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-header {
+    background-color: #e0e7ff;
+    color: #333;
+    font-weight: 600;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px 20px;
+}
+.card-body {
+    padding: 25px 20px;
+}
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 8px 0;
+    color: #555;
+}
+.progress-bar {
+    background-color: #667eea;
+}
+.footer {
+    background-color: #1a202c;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 50px;
+}
+.icon-circle {
+    background-color: #667eea;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px; /* Ensure consistent card height for projects */
+}
+.project-card .card-text {
+    flex-grow: 1; /* Allow text to grow and push buttons down */
+}
+.project-card .card-footer {
+    background-color: white;
+    border-top: none;
+    padding: 15px 20px;
+}
